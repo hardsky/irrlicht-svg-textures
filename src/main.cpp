@@ -4,8 +4,6 @@ using namespace irr;
 
 int main()
 {
-	// create device
-
 	IrrlichtDevice *device = createDevice(video::EDT_OPENGL, core::dimension2d<u32>(1024, 768));
 
 	device->setWindowCaption(L"Irrlicht Engine - SVG Textures Demo");
@@ -34,7 +32,3 @@ int main()
 
 	return 0;
 }
-
-/*
-That's all. I hope it was not too difficult.
-**/
